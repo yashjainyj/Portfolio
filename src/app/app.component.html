@@ -1,0 +1,399 @@
+<header class="header_class">
+
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg   fixed-top navbar-light"  style="background-color: #e3f2fd;">
+            <!-- <a class="navbar-brand" href="#"><img src="../assets/logo.png"></a> -->
+            <div class="container"> 
+                <h3 >Yash Jain</h3>    
+            </div>
+            <button class="navbar-toggler  ml-auto hidden-sm-up float-xs-right"  type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+              <ul class="navbar-nav mr-auto"  (click)="onClick($event)"  >
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item"   >
+                  <a class="nav-link"  href="#about" >About</a>
+                </li>
+               
+               
+                <li class="nav-item" >
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                  </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#subs">Subscribe</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                
+                
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+</header>
+
+
+<main class="site-main">
+    <section class="site-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 site-title">
+                    <h3 class="title-text">Hey</h3>
+                    <h1 class="title-text text-uppercase">I am Yash</h1>
+                    <h4 class="title-text text-uppercase">Developer</h4>
+                    <div class="site-button">
+                        <div class="d-flex flex-row flex-wrap">
+                            <!-- <button type="button" (click)="download()" class="btn button  primary-button mr-4 text-uppercase">Hire me</button> -->
+                            <button type="button" (click)="download()" class="btn button secondary-button  text-uppercase">Get CV</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 banner-img">
+                    <img class="img-fluid" src="../assets/banner/banner-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <section class="about-area" id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="../assets/about-us.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mx-auto about-title">
+                        <h2 class="text-uppercase">
+                            <span>Let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph py-4">
+                            <p class="para">
+                               My name is Yash jain. I am from Ujjain Madhya Pradesh. I completed my +2 from Government Model Higher secondary school with 80 percentge and completed 10th from Mahadji Scindia Higher Secondary school with 76 percentge.
+                            </p>
+                            <p class="para">
+                                    I am pursuing B-tech in Computer Science Engineering. I have a good command in c,c++ and java language.
+                                    Currently my specialization is Android. I have also a basic knowledge on Mean Stack Development (HTML, CSS, JavaScript, Angular, NodeJS and MongoDB).
+                            </p>
+                        </div>
+                        <button type="button" class="btn button primary-button text-uppercase" (click)="download()">Download cv</button>
+
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="services-area" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center  services-title">
+                            <h1 class="text-uppercase title-text">Services Offers</h1>
+                        </div>
+                    </div>
+                    <div class="container services-list">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="services">
+                                    <div class="sevices-img text-center py-4">
+                                        <img src="../assets/services/s1.png" alt="Services-1">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase font-roboto">Web developer</h5>
+                                        <p class="card-text text-secondary">
+                                                Responsive web design allows your website to adapt to and provide an optimal experience on any device it’s being viewed from. This means that your website will look great and function flawlessly for a user on a desktop computer, laptop, tablet, or smartphone.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="services">
+                                    <div class="sevices-img text-center py-4">
+                                        <img src="../assets/services/s2.png" alt="Services-2">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                                        <p class="card-text text-secondary">
+                                                With careful consideration of color schemes, typography, and essential design principles, our team will work with you every step of the way toward the creation of impressive and affordable graphics that you’ll be proud to represent your brand.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="services">
+                                    <div class="sevices-img text-center py-4">
+                                        <img src="../assets/services/robot.png" alt="Services-3">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase font-roboto">Android Developer</h5>
+                                        <p class="card-text text-secondary">
+                                            Responsive design allows your application to adapt to and provide an optimal experience on any device it’s being viewed from. This means that your application will look great and function flawlessly for a user on a tablet or smartphone.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="services">
+                                    <div class="sevices-img text-center py-4">
+                                        <img src="../assets/services/programmer.png" alt="Services-4">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-uppercase font-roboto">Programmer</h5>
+                                        <p class="card-text text-secondary">
+                                                In competitive programming i can follow an approach of project-based learning in which, I can create multiple challenging projects and after  I will realize how logics work in development and that will help to increase programming ability.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+
+
+
+
+
+
+
+
+
+            <section class="project-area" id="project">
+                    <div class="container">
+                        <div class="project-title pb-5">
+                            <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                            <h1 class="text-uppercase title-h1">Quality Work</h1>
+                        </div>
+        
+                     <div class="table-responsive " style="overflow-x:auto;">
+                        <table class="table table-hover " >
+                                <thead  >
+                                    <th>Logo</th>
+                                    <th>Name</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let data of projectList">
+                                        
+                                       
+                                        <td>
+            
+                                            <div class="row grid">
+                                                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                                                    <div class="our-project">
+                                                        <div class="img">
+                                                            <a class="test-popup-link" href="../assets/portfolio/p1.jpg">
+                                                                <img src="{{data.logo}}" height="250" width="250" alt="portfolio-1" class="img-fluid">
+                                                            </a>
+                                                        </div>
+                                                      
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </td>
+                                        <td>
+                                          <div class="title py-4">
+                                            <h6 class="text-uppercase">{{data.name}}</h6>
+                                        
+                                        </div>
+                                    </td>
+                                    <td>
+                                            <div class="title py-4">
+                                                    <p >{{data.type}}</p>
+                                                
+                                                </div>
+                                    </td>
+                                   
+                                    <td>
+                                            <div class="title py-4">
+                                            <a href="{{data.github}}" class="test-popup-link">{{data.github}}</a>
+                                            </div>
+                                    </td>
+            
+                                    </tr>
+                                </tbody>
+                            </table>                     
+                        </div>
+                        </div>
+                    
+                </section>
+        
+        
+
+
+                 <!--  ======================== About Me Area ==============================  -->
+<!-- 
+        <section class="about-area">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-h1">Client Say about me</h1>
+                            <p class="para">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, deleniti
+                                recusandae. Esse incidunt rem repellendus ab voluptates maxime? Nemo, numquam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">John Martin</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Mac Hill</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">John Martin</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Mac Hill</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">John Martin</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h4 class="text-uppercase">Mac Hill</h4>
+                            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                                consequuntur ratione, obcaecati corrupti deserunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section> -->
+
+        <!--  ======================== End About Me Area ==============================  -->
+
+        <!--  ========================== Subscribe me Area ============================  -->
+        <section class="subscribe-us-area" id="subs">
+            <div class="container subscribe">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 text-center subscribe-title">
+                        <h4 class="text-uppercase">Drop YOur Email Here</h4>
+                        <p class="para"></p>
+                    </div>
+                </div>
+                <div class="d-sm-flex justify-content-center">
+                    <form class="" #subs="ngForm" (ngSubmit)="subscribe(subs)">
+                        <div class="row ">
+                           <div class=" col-lg-12 mx-auto">
+                            <div class="input-textbox  subscribe-title">
+                                <input type="text" id="txtemail" name="email" [(ngModel)]='qwe' class="form-control" placeholder="Email">
+                            </div>
+                        </div>  
+                    </div>
+                            <div class="row" >
+                                <div class="col-lg-12 mx-auto">
+                                <div class="btn-submit">
+                                    <button type="submit"   class="btn btn-success">Subscribe</button>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--  ========================== End Subscribe me Area ============================  -->
+
+
+  
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer class="footer-area" id="contact">
+        <div class="container">
+            <div class="">
+                <div class="site-logo text-center py-4">
+                    <!-- <a href="#"><img src="./img/logo.png" alt="logo"></a> -->
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow me</h5>
+                    <a href="https://www.facebook.com/YJ.Programmer?ref=bookmarks"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/yashjainyj"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_yash_jain_yj/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/yash-jain-28b759134/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/yashjainyj1"><i class="fab fa-twitter"></i></a>
+         
+
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+                
+</main>
+<router-outlet></router-outlet>
